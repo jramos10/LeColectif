@@ -1,6 +1,7 @@
 deploy:
   provider: heroku
   app: le-colectif
+install: mkdir hi
 script: mkdir hello
 env:
   global:
