@@ -1,0 +1,6 @@
+deploy:
+  provider: heroku
+  app: le-colectif
+env:
+  global:
+    secure: PG5KlHbLQto1o+++IOPiIZ6QyGugo7boFzspH6yuegpqloOt9NTUjX2qKuGuSGZILYI8MptL2PQTJrygqXq/RvL5GW7Ix0fIvVPVzOd+VuRLYJwFFLX2Ze7FK2MyM6ev/7h6bzQ4/neF732I8aiI19WnZ/URbOCenulmlsRhXDQ=
