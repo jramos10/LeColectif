@@ -1,9 +1,10 @@
 # Read about factories at https://github.com/thoughtbot/factory_girl
 
 FactoryGirl.define do
-  factory :users do
-    email "MyString"
-    password_digest "MyString"
-    full_name "MyString"
+  factory :user do
+    email "anirudh.eka@gmail.com"
+    password "Life"
+    password_confirmation "Life"
+    full_name "Anirudh Eka"
   end
 end

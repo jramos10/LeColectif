@@ -15,5 +15,14 @@ describe 'Users' do
       page.has_field? 'password_confirmation'
       page.has_button? 'Sign Up'
     end
+
+    it 'displays a confirmation message' do
+      visit new_user_path
+
+      click_button 'Sign Up'
+      page.should have_content 'Beats For Sale'
+    end
   end
 end
+
+
