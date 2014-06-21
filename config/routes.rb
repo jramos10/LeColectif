@@ -1,6 +1,10 @@
 LeColectif::Application.routes.draw do
 
-   root 'home#index'
+  root 'home#index'
+
+  resources :users
+
+  #get 'user/new'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -36,7 +40,7 @@ LeColectif::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

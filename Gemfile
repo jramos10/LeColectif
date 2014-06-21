@@ -9,6 +9,9 @@ gem 'zurb-foundation', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
+gem 'devise',           '>= 2.0.0'
+gem 'devise_invitable', '~> 1.3.4'
+
 
 group :doc do
   gem 'sdoc', require: false
@@ -26,8 +29,8 @@ group :test do
   gem 'selenium-webdriver'
 end
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'protected_attributes'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'
