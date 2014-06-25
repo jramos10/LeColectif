@@ -1,3 +1,5 @@
+<link href="/app/assets/stylesheets/new_user.css" rel="Stylesheet" type="text/css" />
+
 <%= form_for @user do |f| %>
       <% if @user.errors.any? %>
           <div class="error_messages">
@@ -27,13 +29,10 @@
         <%= f.label :full_name, 'Full Name:' %>
         <%= f.text_field :full_name %>
 
-        <label>Twitter</label>
+        <label>Twitter Handle</label>
         <div class="row collapse">
-          <div class="two mobile-one columns">
-            <span class="prefix">@</span>
-          </div>
           <div class="ten mobile-three columns">
-            <input type="text" placeholder="lecolectif">
+            <input type="text" placeholder="@lecolectif">
           </div>
         </div>
 
@@ -41,9 +40,6 @@
         <div class="row collapse">
           <div class="nine mobile-three columns">
             <input type="text" placeholder="lecolectif.com">
-          </div>
-          <div class="three mobile-one columns">
-            <span class="postfix">.com</span>
           </div>
         </div>
 
