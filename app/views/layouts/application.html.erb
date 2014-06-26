@@ -3,28 +3,59 @@
 <html class="ie7" lang="en">
 <html class="ie8" lang="en">
 <html lang="en">
-  <head>
-  	<meta charset="utf-8" />
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+  <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
 
-  	<%= stylesheet_link_tag    "application" %>
-  	<%= javascript_include_tag "vendor/custom.modernizr" %>
-    <%= csrf_meta_tags %>
-  </head>
+  <%= stylesheet_link_tag "application" %>
+  <%= javascript_include_tag "vendor/custom.modernizr" %>
+  <%= csrf_meta_tags %>
+</head>
 
-  <body>
+<body>
 
-  <% if notice %>
-      <p class="alert alert-success"><%= notice %></p>
-  <% end %>
-  <% if alert %>
-      <p class="alert alert-danger"><%= alert %></p>
-  <% end %>
+<% if notice %>
+    <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+    <p class="alert alert-danger"><%= alert %></p>
+<% end %>
 
-    <%= yield %>
+<div id="header" align="center">
+  <%= image_tag "le-colectif-header.jpg" %>
+</div>
 
-    <%= javascript_include_tag "application" %>
-  </body>
+<div class="contain-to-grid sticky">
+  <nav class="top-bar" data-topbar data-options="sticky_on: large">
+    <ul class="title-area">
+      <li class="name">
+        <h4><a href="#">Home</a></h4>
+      <li>
+        <h4><a href="#">About</a></h4>
+      <li>
+        <h4><a href="http://lecolectif.com" target="_blank">Blog</a></h4>
+      </li>
+    </ul>
+    <ul class="right">
+      <h4><a href="/users/new">Sign Up</a></h4>
+      <h4><a href="#">Sign in</a></h4>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<% if user_signed_in? %>
+    Logged in as <strong><%= current_user.email %></strong>.
+    <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'top-bar' %>
+<% else %>
+    <%= link_to "Sign Up", new_user_path, :class => 'top-bar' %> |
+    <%= link_to "Login", new_user_session_path, :class => 'navbar-link' %>
+<% end %>
+
+<%= yield %>
+
+<%= javascript_include_tag "application" %>
+</body>
 </html>
