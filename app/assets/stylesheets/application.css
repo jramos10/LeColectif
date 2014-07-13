@@ -14,7 +14,7 @@
  */
 
 
-ul.title-area{
+ul.title-area, {
     display: -webkit-inline-box;
 }
 

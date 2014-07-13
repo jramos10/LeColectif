@@ -24,25 +24,24 @@
 <% end %>
 
 <div id="header" align="center">
-  <%= image_tag "le-colectif-header.jpg" %>
+  <%= image_tag 'le-colectif-header.jpg' %>
 </div>
 
 <div class="contain-to-grid sticky">
   <nav class="top-bar" data-topbar data-options="sticky_on: large">
-
     <ul class="title-area">
       <li class="name">
-        <h1><a href="/">Home</a></h1>
+        <h1><a href="/">Le Colectif</a></h1>
       </li>
     </ul>
 
     <section class="top-bar-section">
         <ul class="left">
           <li class="About">
-            <h4><a href="/">About</a></h4>
+            <%= link_to 'About', root_path %>
           </li>
           <li class="Blog">
-            <h4><a href="http://lecolectif.com" target="_blank">Blog</a></h4>
+            <a href="http://lecolectif.com" target="_blank">Blog</a>
           </li>
         </ul>
 
@@ -54,7 +53,7 @@
               </li>
           <% else %>
               <li class="Sign Up">
-                <%= link_to 'Sign Up', new_user_path %> |
+                <%= link_to 'Sign Up', new_user_path %>
               </li>
               <li class="Login">
                 <%= link_to 'Login', new_user_session_path %>
@@ -64,8 +63,6 @@
     </section>
   </nav>
 </div>
-
-
 
 <%= yield %>
 
