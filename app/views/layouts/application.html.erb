@@ -29,30 +29,43 @@
 
 <div class="contain-to-grid sticky">
   <nav class="top-bar" data-topbar data-options="sticky_on: large">
+
     <ul class="title-area">
       <li class="name">
-        <h4><a href="#">Home</a></h4>
-      <li>
-        <h4><a href="#">About</a></h4>
-      <li>
-        <h4><a href="http://lecolectif.com" target="_blank">Blog</a></h4>
+        <h1><a href="/">Home</a></h1>
       </li>
     </ul>
-    <ul class="right">
-      <h4><a href="/users/new">Sign Up</a></h4>
-      <h4><a href="#">Sign in</a></h4>
-      </li>
-    </ul>
+
+    <section class="top-bar-section">
+        <ul class="left">
+          <li class="About">
+            <h4><a href="/">About</a></h4>
+          </li>
+          <li class="Blog">
+            <h4><a href="http://lecolectif.com" target="_blank">Blog</a></h4>
+          </li>
+        </ul>
+
+        <ul class="right">
+          <% if user_signed_in? %>
+              Logged in as <strong><%= current_user.email %></strong>.
+              <li class="Logout">
+                <%= link_to 'Logout', destroy_user_session_path, method: :delete, :class => 'top-bar' %>
+              </li>
+          <% else %>
+              <li class="Sign Up">
+                <%= link_to 'Sign Up', new_user_path %> |
+              </li>
+              <li class="Login">
+                <%= link_to 'Login', new_user_session_path %>
+              </li>
+          <% end %>
+        </ul>
+    </section>
   </nav>
 </div>
 
-<% if user_signed_in? %>
-    Logged in as <strong><%= current_user.email %></strong>.
-    <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'top-bar' %>
-<% else %>
-    <%= link_to "Sign Up", new_user_path, :class => 'top-bar' %> |
-    <%= link_to "Login", new_user_session_path, :class => 'navbar-link' %>
-<% end %>
+
 
 <%= yield %>
 

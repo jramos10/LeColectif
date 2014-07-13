@@ -5,22 +5,22 @@ describe 'Users' do
     it 'displays the create new user page' do
       visit new_user_path
 
-      page.should have_content 'Email'
-      page.should have_content 'Full Name'
-      page.should have_content 'Password'
-      page.should have_content 'Confirm Password'
-      page.has_field? 'email'
-      page.has_field? 'full_name'
-      page.has_field? 'password'
-      page.has_field? 'password_confirmation'
-      page.has_button? 'Sign Up'
+      expect(page).to have_content('Email')
+      expect(page).to have_content('Full Name')
+      expect(page).to have_content('Password')
+      expect(page).to have_content('Confirm Password')
+      expect(page).to have_field('Email:')
+      expect(page).to have_field('Password:')
+      expect(page).to have_field('Confirm Password:')
+      expect(page).to have_field('Full Name:')
+      expect(page).to have_button('Sign Up')
     end
 
     it 'displays a confirmation message' do
       visit new_user_path
 
       click_button 'Sign Up'
-      page.should have_content 'Beats For Sale'
+      expect(page).to have_content('Beats For Sale')
     end
   end
 end

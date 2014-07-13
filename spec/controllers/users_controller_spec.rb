@@ -16,10 +16,10 @@ describe UsersController do
 
       post :create, user: attributes
 
-      expect(User.find_by_email("anirudh.eka@gmail.com")).to_not be_nil
+      expect(User.find_by_email('anirudh.eka@gmail.com')).to_not be_nil
     end
 
-    it "should redirect to home" do
+    it 'should redirect to home' do
       attributes = FactoryGirl.attributes_for(:user)
 
       post :create, user: attributes
