@@ -1,7 +1,7 @@
 LeColectif::Application.routes.draw do
 
-  resources :users
   devise_for :users
+  resources :users
   root 'home#index'
 
   #get 'user/new'

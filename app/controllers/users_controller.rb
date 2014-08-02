@@ -1,17 +1,19 @@
-class UsersController < ApplicationController
+class UsersController < Devise::RegistrationsController
 
-  def new
-    @user = User.new
-  end
+  # def new
+  #   @user = User.new
+  # end
+  #
+  # def create
+  #   user = User.create(user_params)
+  #   redirect_to root_path
+  # end
+  #
+  # def show
+  #
+  # end
 
-  def create
-    user = User.create(user_params)
-    redirect_to root_path
-  end
 
-  def show
-
-  end
 
   private
   def user_params

@@ -10,7 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'devise',           '>= 2.0.0'
-gem 'devise_invitable', '~> 1.3.4'
+# gem 'devise_invitable', '~> 1.3.4'
 
 
 group :doc do
@@ -20,6 +20,7 @@ end
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0.beta'
   gem 'factory_girl_rails'
+  gem 'pry'
 end
 
 group :test do
