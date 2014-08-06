@@ -8,7 +8,7 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
+ *=
  *= require foundation_and_overrides
  *= require_tree .
  */
@@ -18,8 +18,12 @@ ul.title-area, {
     display: -webkit-inline-box;
 }
 
-#widget {
-    display: block;
+body {
+    background: #FF9009;
+}
+
+li.logged-in-as {
+    color: rgb(0, 153, 255);
 }
 
 #header {
