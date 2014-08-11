@@ -14,7 +14,7 @@
   <%= csrf_meta_tags %>
 </head>
 
-<body>
+<body background="cuba1.jpg">
 
 <% if notice %>
     <p class="alert alert-success"><%= notice %></p>
@@ -23,44 +23,27 @@
     <p class="alert alert-danger"><%= alert %></p>
 <% end %>
 
-<div id="header" align="center">
-  <%= image_tag 'le-colectif-header.jpg' %>
-</div>
 
 <div class="contain-to-grid sticky">
   <nav class="top-bar" data-topbar data-options="sticky_on: large">
     <ul class="title-area">
-      <li class="name">
-        <h1><a href="/">Le Colectif</a></h1>
-      </li>
+      <li class="name"><h1><a href="/">Plat Ramos</a></h1></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
     </ul>
 
     <section class="top-bar-section">
       <ul class="left">
-        <li class="about">
-          <%= link_to 'About', root_path %>
-        </li>
-        <li class="blog">
-          <a href="http://lecolectif.com" target="_blank">Blog</a>
-        </li>
+        <li class="about"><%= link_to 'About', root_path %></li>
       </ul>
 
       <ul class="right">
         <% if user_signed_in? %>
-            <li class="invite">
-              <%= link_to 'Invite A Friend', new_user_invitation_path %>
-            </li>
-            <li class="logout">
-              <%= link_to 'Logout', destroy_user_session_path %>
-            </li>
+            <li class="invite"><%= link_to 'Invite A Friend', new_user_invitation_path %></li>
+            <li class="logout"><%= link_to 'Logout', destroy_user_session_path, method: :delete %></li>
             <li class="logged-in-as"><strong><%= current_user.email %></strong></li>
-      <% else %>
-            <li class="signUp">
-              <%= link_to 'Sign Up', new_user_registration_path %>
-            </li>
-            <li class="login">
-              <%= link_to 'Login', new_user_session_path %>
-            </li>
+        <% else %>
+            <li class="signUp"><%= link_to 'Sign Up', new_user_registration_path %></li>
+            <li class="login"><%= link_to 'Login', new_user_session_path %></li>
         <% end %>
       </ul>
     </section>
