@@ -18,12 +18,32 @@ ul.title-area, {
     display: -webkit-inline-box;
 }
 
+p.alert.alert-success {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: medium;
+}
+
 body {
     background: #FF9009;
 }
 
 li.logged-in-as {
     color: rgb(0, 153, 255);
+    margin-top: 8px;
+}
+
+input#user_email, input#user_password, input#user_password_confirmation {
+    width: 25%;
+}
+
+input[type=submit] {
+width: inherit;
+margin-left: 40%;
+width: 20%;
+font-size: xx-large;
 }
 
 #header {
