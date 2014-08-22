@@ -52,17 +52,6 @@ li.logged-in-as {
     margin-top: 8px;
 }
 
-input#user_email, input#user_password, input#user_password_confirmation {
-    width: 25%;
-}
-
-input[type=submit] {
-width: inherit;
-margin-left: 40%;
-width: 20%;
-font-size: xx-large;
-}
-
 #header {
     font-family: palatino linotype;
     color: #F9E3CC;
