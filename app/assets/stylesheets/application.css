@@ -13,7 +13,6 @@
  *= require_tree .
  */
 
-
 .widget {
     box-shadow: 10px 10px 5px #888888;
 }
@@ -30,19 +29,8 @@ p.alert.alert-success {
     font-size: medium;
 }
 
-.page {
-  height: 100%;
-  width: 80%;
-  z-index: -1;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0.4;
-  position: absolute;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 body {
-    background-image: url(/assets/images/cuba1.jpg);
+    background-image: url(/assets/images/FoxLakeGaze.jpg);
     background-attachment: fixed;
     background-size:cover;
 }
@@ -57,7 +45,16 @@ li.logged-in-as {
     color: #F9E3CC;
 }
 
+.beats {
+    font-family: 'Droid Sans';
+    font-size: 4.125em;
+    margin-top: 5.4%;
+    text-shadow: 1px 1px black;
+    color: rgb(255, 245, 226);
+}
+
 #nav {
     font-family: georgia;
     color: #F9E3CC;
 }
+

@@ -11,6 +11,9 @@
 
   <%= stylesheet_link_tag "application" %>
   <%= javascript_include_tag "vendor/custom.modernizr" %>
+  <link href="http://fonts.googleapis.com/css?family=Arvo:400italic,400,700italic,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+
   <%= csrf_meta_tags %>
 </head>
 
@@ -32,18 +35,11 @@
 
     <section class="top-bar-section">
       <ul class="left">
-        <li class="about"><%= link_to 'About', root_path %></li>
       </ul>
 
       <ul class="right">
-        <% if user_signed_in? %>
-            <li class="invite"><%= link_to 'Invite A Friend', new_user_invitation_path %></li>
-            <li class="logout"><%= link_to 'Logout', destroy_user_session_path, method: :delete %></li>
-            <li class="logged-in-as"><strong><%= current_user.email %></strong></li>
-        <% else %>
-            <li class="signUp"><%= link_to 'Sign Up', new_user_registration_path %></li>
-            <li class="login"><%= link_to 'Login', new_user_session_path %></li>
-        <% end %>
+        <li class="about"><%= link_to 'About', root_path %></li>
+        <li class="contact"><%= link_to 'Contact', root_path %></li>
       </ul>
     </section>
   </nav>
