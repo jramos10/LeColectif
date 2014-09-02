@@ -49,12 +49,27 @@ li.logged-in-as {
     font-family: 'Droid Sans';
     font-size: 4.125em;
     margin-top: 5.4%;
+    margin-bottom: 1%;
     text-shadow: 1px 1px black;
     color: rgb(255, 245, 226);
 }
 
-#nav {
-    font-family: georgia;
-    color: #F9E3CC;
+.disclaimer {
+    font-family: 'Droid Sans', Bold;
+    color: rgb(255, 245, 226);
+    font-size: inherit;
+    text-shadow: 1px 1px black;
+    display: inline-block;
 }
+
+.top-bar {
+    font-family: 'Droid Sans', Bold;
+    color: rgb(255, 245, 226);
+}
+
+.info {
+    align: center;
+    margin-top: 2%;
+}
+
 
