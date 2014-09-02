@@ -63,6 +63,7 @@ li.logged-in-as {
 }
 
 .top-bar {
+    margin-bottom: 1%;
     font-family: 'Droid Sans', Bold;
     color: rgb(255, 245, 226);
 }
