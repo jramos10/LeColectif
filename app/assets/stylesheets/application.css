@@ -54,6 +54,10 @@ li.logged-in-as {
     color: rgb(255, 245, 226);
 }
 
+.music-player {
+    width: 42%;
+}
+
 .disclaimer {
     font-family: 'Droid Sans', Bold;
     color: rgb(255, 245, 226);
@@ -71,6 +75,16 @@ li.logged-in-as {
 .info {
     align: center;
     margin-top: 2%;
+}
+
+.about-page {
+    font-family: 'Droid Sans';
+    margin-top: 5.4%;
+    margin-bottom: 1%;
+    text-shadow: 1px 1px black;
+    color: rgb(255, 245, 226);
+    text-align: center;
+    margin-top: 7%;
 }
 
 
