@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails music-website: development" uuid="d03cdc3f-856d-43bd-85e0-ba5876ec6142">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails music-website: test" uuid="6627a769-00a3-4591-bcb6-13bf1b94ffba">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails music-website: production" uuid="6b090fac-c3aa-42a9-810c-d2bee1cf8ccb">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails music-website: cucumber" uuid="40fc16d1-d32c-48d3-a220-5a0506aa4282">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

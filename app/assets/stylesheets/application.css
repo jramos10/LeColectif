@@ -35,15 +35,21 @@ body {
     background-size:cover;
 }
 
+a {
+    font-family: 'Droid Sans';
+    text-shadow: 1px 1px black;
+    color: #D3A5A5;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
 li.logged-in-as {
     color: rgb(0, 153, 255);
     margin-top: 8px;
 }
 
-#header {
-    font-family: palatino linotype;
-    color: #F9E3CC;
-}
 
 .beats {
     font-family: 'Droid Sans';
@@ -77,14 +83,33 @@ li.logged-in-as {
     margin-top: 2%;
 }
 
-.about-page {
+.musicians, .production-influences, .contact-info, .contact-title {
     font-family: 'Droid Sans';
-    margin-top: 5.4%;
-    margin-bottom: 1%;
     text-shadow: 1px 1px black;
     color: rgb(255, 245, 226);
-    text-align: center;
-    margin-top: 7%;
+}
+
+.contact-page {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5.8%;
+    width: 40%;
+}
+
+.contact-for-exclusives {
+    margin-top: 1%;
+    font-family: 'Droid Sans', Bold;
+    color: rgb(255, 245, 226);
+    font-size: inherit;
+    text-shadow: 1px 1px black;
+    display: inline-block;
+}
+
+.about-page {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5.4%;
+    width: 40%;
 }
 
 

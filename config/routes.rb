@@ -1,5 +1,6 @@
 LeColectif::Application.routes.draw do
 
+  get "pages/contact"
   get "pages/about"
   devise_for :users
   resources :users
