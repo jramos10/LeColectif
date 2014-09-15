@@ -38,30 +38,31 @@ body {
 a {
     font-family: 'Droid Sans';
     text-shadow: 1px 1px black;
-    color: #D3A5A5;
+    color: #FFFFFF;
 }
 
 a:hover {
     color: #ffffff;
 }
 
-li.logged-in-as {
-    color: rgb(0, 153, 255);
-    margin-top: 8px;
+.top-bar {
+    margin-bottom: 1%;
+    font-family: 'Droid Sans', Bold;
+    color: rgb(255, 245, 226);
 }
 
+.music-player {
+    width: 42%;
+    min-width: 300px;
+}
 
-.beats {
+.tracks-for-sale {
     font-family: 'Droid Sans';
     font-size: 4.125em;
     margin-top: 5.4%;
     margin-bottom: 1%;
     text-shadow: 1px 1px black;
     color: rgb(255, 245, 226);
-}
-
-.music-player {
-    width: 42%;
 }
 
 .disclaimer {
@@ -72,15 +73,19 @@ li.logged-in-as {
     display: inline-block;
 }
 
-.top-bar {
-    margin-bottom: 1%;
-    font-family: 'Droid Sans', Bold;
-    color: rgb(255, 245, 226);
+.about-page {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    width: 40%;
 }
 
-.info {
+.bio, .about-headers {
+    font-family: 'Droid Sans', Bold;
+    color: rgb(255, 245, 226);
+    text-shadow: 1px 1px black;
+    display: inline-block;
     align: center;
-    margin-top: 2%;
 }
 
 .musicians, .production-influences, .contact-info, .contact-title {
@@ -92,7 +97,7 @@ li.logged-in-as {
 .contact-page {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5.8%;
+    margin-top: 7%;
     width: 40%;
 }
 
@@ -103,13 +108,6 @@ li.logged-in-as {
     font-size: inherit;
     text-shadow: 1px 1px black;
     display: inline-block;
-}
-
-.about-page {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5.4%;
-    width: 40%;
 }
 
 
