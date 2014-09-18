@@ -54,6 +54,7 @@ a:hover {
 .music-player {
     width: 42%;
     min-width: 300px;
+    padding-bottom: 3%;
 }
 
 .tracks-for-sale {
@@ -108,6 +109,16 @@ a:hover {
     font-size: inherit;
     text-shadow: 1px 1px black;
     display: inline-block;
+}
+
+.purchased, .canceled {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Droid Sans', Bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 2%;
 }
 
 

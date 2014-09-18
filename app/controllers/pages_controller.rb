@@ -4,4 +4,10 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def purchase
+  end
+
+  def cancel
+  end
 end

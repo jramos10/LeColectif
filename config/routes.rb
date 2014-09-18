@@ -1,5 +1,7 @@
 LeColectif::Application.routes.draw do
 
+  get "pages/cancel"
+  get "pages/purchase"
   get "pages/contact"
   get "pages/about"
   devise_for :users
