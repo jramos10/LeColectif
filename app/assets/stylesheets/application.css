@@ -64,6 +64,7 @@ a:hover {
     margin-bottom: 1%;
     text-shadow: 1px 1px black;
     color: rgb(255, 245, 226);
+    border-radius: 30px;
 }
 
 .disclaimer {
@@ -79,13 +80,18 @@ a:hover {
     margin-right: auto;
     margin-top: 7%;
     width: 40%;
+    text-align: center;
+    min-width: 300px;
+}
+
+.about-page > h3, h5 {
+    text-align: left;
 }
 
 .bio, .about-headers {
     font-family: 'Droid Sans', Bold;
     color: rgb(255, 245, 226);
     text-shadow: 1px 1px black;
-    display: inline-block;
     align: center;
 }
 
@@ -100,6 +106,7 @@ a:hover {
     margin-right: auto;
     margin-top: 7%;
     width: 40%;
+    min-width: 300px;
 }
 
 .contact-for-exclusives {
@@ -121,4 +128,26 @@ a:hover {
     padding-bottom: 2%;
 }
 
+@media screen and (max-width : 939px){
+    .about-page {
+        background-color: black;
+        background: rgba(0, 0, 0, 0.44);
+        border-radius: 15px;
+        padding: 3.5%;
+    }
+
+    .contact-page {
+        background-color: black;
+        background: rgba(0, 0, 0, 0.44);
+        border-radius: 15px;
+        padding: 3.5%;
+    }
+
+    .disclaimer {
+        background-color: black;
+        background: rgba(0, 0, 0, 0.44);
+        border-radius: 15px;
+        padding: 2.8%;
+    }
+}
 
