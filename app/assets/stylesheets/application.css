@@ -31,8 +31,8 @@ p.alert.alert-success {
 
 body {
     background-image: url(/assets/images/FoxLakeGaze.jpg);
-    background-attachment: fixed;
     background-size:cover;
+    background-attachment: fixed;
 }
 
 a {
