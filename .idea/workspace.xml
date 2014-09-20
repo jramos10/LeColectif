@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9d82bf8-82cd-4123-9a83-5abf2cddad8c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="music-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,8 +108,8 @@
       <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48076922" vertical-offset="1110" max-vertical-offset="2415">
-              <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.63461536" vertical-offset="1125" max-vertical-offset="2415">
+              <caret line="108" column="15" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -968,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48076922" vertical-offset="1110" max-vertical-offset="2415">
-          <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.63461536" vertical-offset="1125" max-vertical-offset="2415">
+          <caret line="108" column="15" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="15" />
           <folding />
         </state>
       </provider>
