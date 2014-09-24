@@ -45,6 +45,7 @@ a {
 
 a:hover {
     color: #ffffff;
+    text-decoration: underline;
 }
 
 .top-bar {
@@ -81,6 +82,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 7%;
+    margin-bottom: 2%;
     width: 40%;
     text-align: center;
     min-width: 300px;
@@ -97,7 +99,7 @@ a:hover {
     align: center;
 }
 
-.musicians, .production-influences, .contact-info, .contact-title {
+.musicians, .production-influences, .contact-info, .contact-title, .site-explanation {
     font-family: 'Droid Sans';
     text-shadow: 1px 1px black;
     color: rgb(255, 245, 226);
@@ -150,6 +152,15 @@ a:hover {
         background: rgba(0, 0, 0, 0.44);
         border-radius: 15px;
         padding: 2.8%;
+    }
+
+    .tracks-for-sale {
+        background-color: black;
+        background: rgba(0, 0, 0, 0.44);
+        border-radius: 15px;
+        padding: 2.8%;
+        margin: 3%;
+        margin-top: 0;
     }
 }
 
