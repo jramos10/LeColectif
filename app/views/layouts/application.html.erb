@@ -54,24 +54,7 @@
     <p class="alert alert-danger"><%= alert %></p>
 <% end %>
 
-<div class="contain-to-grid sticky">
-  <nav class="top-bar" data-topbar data-options="sticky_on: large">
-    <ul class="title-area">
-      <li class="name"><h1><a href="/">Plat Ramos</a></h1></li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
-
-    <section class="top-bar-section">
-      <ul class="left">
-      </ul>
-
-      <ul class="right">
-        <li class="about"><%= link_to 'About', pages_about_path %></li>
-        <li class="contact"><%= link_to 'Contact', pages_contact_path %></li>
-      </ul>
-    </section>
-  </nav>
-</div>
+<%= render 'layouts/navbar' %>
 
 <div class="page">
 </div>
