@@ -62,7 +62,8 @@ a:hover {
 
 .tracks-for-sale {
     font-family: 'Droid Sans';
-    font-size: 4.125em;
+    font-size: 2.5em;
+    width: 60%;
     margin-top: 5.4%;
     margin-bottom: 1%;
     text-shadow: 1px 1px black;
@@ -137,6 +138,11 @@ a:hover {
 }
 
 @media screen and (max-width : 939px){
+
+    .music-player {
+        margin-top: 10%;
+    }
+
     .about-page {
         background-color: black;
         background: rgba(0, 0, 0, 0.44);
@@ -159,6 +165,7 @@ a:hover {
     }
 
     .tracks-for-sale {
+        display: none;
         background-color: black;
         background: rgba(0, 0, 0, 0.44);
         border-radius: 15px;
