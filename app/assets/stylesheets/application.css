@@ -75,6 +75,12 @@ a:hover {
     align: center;
 }
 
+.contact-info, .contact-title, .site-explanation {
+    font-family: 'Droid Sans';
+    text-shadow: 1px 1px black;
+    color: rgb(255, 245, 226);
+}
+
 .site-explanation {
     font: 16px;
 }
@@ -85,15 +91,6 @@ a:hover {
     margin-top: 7%;
     width: 40%;
     min-width: 300px;
-}
-
-.contact-for-exclusives {
-    margin-top: 1%;
-    font-family: 'Droid Sans', Bold;
-    color: rgb(255, 245, 226);
-    font-size: inherit;
-    text-shadow: 1px 1px black;
-    display: inline-block;
 }
 
 @media screen and (max-width : 939px){
