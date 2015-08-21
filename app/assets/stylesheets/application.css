@@ -54,31 +54,6 @@ a:hover {
     color: rgb(255, 245, 226);
 }
 
-.music-player {
-    width: 42%;
-    min-width: 300px;
-    padding-bottom: 3%;
-}
-
-.tracks-for-sale {
-    font-family: 'Droid Sans';
-    font-size: 2.5em;
-    width: 60%;
-    margin-top: 5.4%;
-    margin-bottom: 1%;
-    text-shadow: 1px 1px black;
-    color: rgb(255, 245, 226);
-    border-radius: 30px;
-}
-
-.disclaimer {
-    font-family: 'Droid Sans', Bold;
-    color: rgb(255, 245, 226);
-    font-size: inherit;
-    text-shadow: 1px 1px black;
-    display: inline-block;
-}
-
 .about-page {
     margin-left: auto;
     margin-right: auto;
@@ -100,12 +75,6 @@ a:hover {
     align: center;
 }
 
-.musicians, .production-influences, .contact-info, .contact-title, .site-explanation {
-    font-family: 'Droid Sans';
-    text-shadow: 1px 1px black;
-    color: rgb(255, 245, 226);
-}
-
 .site-explanation {
     font: 16px;
 }
@@ -125,16 +94,6 @@ a:hover {
     font-size: inherit;
     text-shadow: 1px 1px black;
     display: inline-block;
-}
-
-.purchased, .canceled {
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Droid Sans', Bold;
-    font-size: 18px;
-    color: #ffffff;
-    padding-bottom: 2%;
 }
 
 @media screen and (max-width : 939px){

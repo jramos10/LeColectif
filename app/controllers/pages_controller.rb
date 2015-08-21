@@ -5,9 +5,6 @@ class PagesController < ApplicationController
   def contact
   end
 
-  def purchase
-  end
-
-  def cancel
+  def recentTracks
   end
 end
