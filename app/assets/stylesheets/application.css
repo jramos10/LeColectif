@@ -75,14 +75,10 @@ a:hover {
     align: center;
 }
 
-.contact-info, .contact-title, .site-explanation {
+.contact-info, .contact-title {
     font-family: 'Droid Sans';
     text-shadow: 1px 1px black;
     color: rgb(255, 245, 226);
-}
-
-.site-explanation {
-    font: 16px;
 }
 
 .widget-container {
@@ -112,11 +108,6 @@ a:hover {
 }
 
 @media screen and (max-width : 939px){
-
-    .music-player {
-        margin-top: 10%;
-    }
-
     .about-page {
         background-color: black;
         background: rgba(0, 0, 0, 0.44);
@@ -131,25 +122,8 @@ a:hover {
         padding: 3.5%;
     }
 
-    .disclaimer {
-        background-color: black;
-        background: rgba(0, 0, 0, 0.44);
-        border-radius: 15px;
-        padding: 2.8%;
-    }
-
     .widget-container {
         margin: .05% auto 2%;
-    }
-
-    .tracks-for-sale {
-        display: none;
-        background-color: black;
-        background: rgba(0, 0, 0, 0.44);
-        border-radius: 15px;
-        padding: 2.8%;
-        margin: 3%;
-        margin-top: 0;
     }
 }
 
