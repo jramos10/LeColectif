@@ -85,6 +85,24 @@ a:hover {
     font: 16px;
 }
 
+.widget-container {
+    position: relative;
+    overflow: hidden;
+    margin: 3% auto 2%;
+    min-width: 355px;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .contact-page {
     margin-left: auto;
     margin-right: auto;
@@ -118,6 +136,10 @@ a:hover {
         background: rgba(0, 0, 0, 0.44);
         border-radius: 15px;
         padding: 2.8%;
+    }
+
+    .widget-container {
+        margin: .05% auto 2%;
     }
 
     .tracks-for-sale {
