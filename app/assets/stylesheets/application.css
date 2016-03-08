@@ -37,6 +37,14 @@ body {
     min-height: 665px;
 }
 
+.blog-post {
+    background-color: black;
+    background: rgba(0, 0, 0, 0.64);
+    border-radius: 15px;
+    padding: 3.5%;
+    margin-bottom: 1.5%;
+}
+
 a {
     font-family: 'Droid Sans';
     text-shadow: 1px 1px black;
