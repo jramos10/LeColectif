@@ -51,6 +51,11 @@ a {
     color: #FFFFFF;
 }
 
+.bio {
+    font-size: large;
+    color: #ffffff;
+}
+
 a:hover {
     color: #ffffff;
     text-decoration: underline;
