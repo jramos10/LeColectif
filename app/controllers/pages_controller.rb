@@ -5,6 +5,6 @@ class PagesController < ApplicationController
   def contact
   end
 
-  def platInTheNews
+  def plat_in_the_news
   end
 end

@@ -1,7 +1,8 @@
 LeColectif::Application.routes.draw do
 
   get "pages/contact"
-  get "pages/platInTheNews"
+
+  get "pages/plat_in_the_news"
 
   root 'home#index'
 
