@@ -10,8 +10,6 @@ gem 'zurb-foundation', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
-gem 'devise',           '>= 2.0.0'
-gem 'devise_invitable', '~> 1.3.4'
 
 group :production do
   gem 'rails_12factor'
