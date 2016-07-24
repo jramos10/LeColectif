@@ -31,7 +31,7 @@ p.alert.alert-success {
 
 body {
     background-image: url(/assets/images/fried-plantains.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 665px;
@@ -81,14 +81,26 @@ a:hover {
     text-align: left;
 }
 
-.bio, .about-headers {
+.bio, .about-headers, .contest-header, .contest-details-body {
     font-family: 'Droid Sans', Bold;
     color: rgb(255, 245, 226);
     text-shadow: 1px 1px black;
     align: center;
 }
 
-.contact-info, .contact-title {
+.contest-header {
+    font-family: 'Droid Sans', Bold;
+    color: rgb(255, 245, 226);
+    text-shadow: 1px 1px black;
+    font-size: xx-large;
+    align: center;
+}
+
+.contest-details-body {
+    font-size: larger;
+}
+
+.contact-info, .contact-title, .contest-details-title {
     font-family: 'Droid Sans';
     text-shadow: 1px 1px black;
     color: rgb(255, 245, 226);
@@ -106,13 +118,13 @@ a:hover {
 
 .video-container iframe {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
 
-.contact-page {
+.contact-page, .contest-page {
     margin-left: auto;
     margin-right: auto;
     margin-top: 7%;
@@ -120,7 +132,7 @@ a:hover {
     min-width: 300px;
 }
 
-@media screen and (max-width : 939px){
+@media screen and (max-width: 939px) {
     .about-page {
         background-color: black;
         background: rgba(0, 0, 0, 0.44);
@@ -128,7 +140,11 @@ a:hover {
         padding: 3.5%;
     }
 
-    .contact-page {
+    .contest-details-body {
+        font-size: initial;
+    }
+
+    .contact-page, .contest-page {
         background-color: black;
         background: rgba(0, 0, 0, 0.44);
         border-radius: 15px;

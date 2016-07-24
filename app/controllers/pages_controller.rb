@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def plat_in_the_news
   end
+
+  def contest
+  end
 end
