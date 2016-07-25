@@ -67,6 +67,10 @@ a:hover {
     color: rgb(255, 245, 226);
 }
 
+a.home:link {
+    font-size: xx-large;
+}
+
 .about-page {
     margin-left: auto;
     margin-right: auto;
