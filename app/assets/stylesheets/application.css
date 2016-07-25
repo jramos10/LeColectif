@@ -140,6 +140,14 @@ a:hover {
     min-width: 300px;
 }
 
+.contest-details-body {
+
+}
+
+.contest-page {
+    width: 48%;
+}
+
 @media screen and (max-width: 939px) {
     .about-page {
         background-color: black;
