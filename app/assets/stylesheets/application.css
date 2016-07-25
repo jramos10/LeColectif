@@ -67,6 +67,14 @@ a:hover {
     color: rgb(255, 245, 226);
 }
 
+a:link {
+    color: #C0CF71;
+}
+
+a:not(.embedly-link) {
+    color: #C0CF71;
+}
+
 a.home:link {
     font-size: xx-large;
 }
@@ -74,7 +82,7 @@ a.home:link {
 .about-page {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7%;
+    margin-top: 2.5%;
     margin-bottom: 2%;
     width: 40%;
     text-align: center;
@@ -85,7 +93,7 @@ a.home:link {
     text-align: left;
 }
 
-.bio, .about-headers, .contest-header, .contest-details-body {
+.bio, .about-headers, .contest-header, .contest-details-body, .contact-title {
     font-family: 'Droid Sans', Bold;
     color: rgb(255, 245, 226);
     text-shadow: 1px 1px black;
@@ -139,7 +147,7 @@ a.home:link {
 .contact-page, .contest-page {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7%;
+    margin-top: 2.5%;
     width: 40%;
     min-width: 300px;
 }
