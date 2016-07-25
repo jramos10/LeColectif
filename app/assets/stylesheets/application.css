@@ -39,7 +39,7 @@ body {
 
 .blog-post {
     background-color: black;
-    background: rgba(0, 0, 0, 0.64);
+    background: rgba(0, 0, 0, 0.55);
     border-radius: 15px;
     padding: 3.5%;
     margin-bottom: 1.5%;
@@ -104,6 +104,14 @@ a:hover {
     font-family: 'Droid Sans';
     text-shadow: 1px 1px black;
     color: rgb(255, 245, 226);
+}
+
+/* drop shadow */
+.contact-info, .bio, .contest-page {
+    background-color: black;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 15px;
+    padding: 3.5%;
 }
 
 .widget-container {
