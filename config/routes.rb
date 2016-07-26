@@ -6,6 +6,8 @@ LeColectif::Application.routes.draw do
 
   root 'home#index'
 
+  get '/.well-known/acme-challenge/:id' => 'pages#letsencrypt'
+
   #get 'user/new'
 
   # Example of regular route:
