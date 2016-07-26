@@ -40,7 +40,7 @@ body {
 .blog-post {
     background-color: black;
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 3.5%;
     margin-bottom: 1.5%;
 }
@@ -122,14 +122,18 @@ a.home:link {
 .contact-info, .bio, .contest-page {
     background-color: black;
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 3.5%;
 }
 
 /* center headings */
-
 .contact-title, .contest-details-title, .contest-header {
     text-align: center;
+}
+
+/*remove top padding*/
+.contact-title {
+    margin-top: 0%;
 }
 
 .widget-container {
@@ -158,10 +162,6 @@ a.home:link {
     min-width: 300px;
 }
 
-.contest-details-body {
-
-}
-
 .contest-page {
     width: 48%;
 }
@@ -170,7 +170,7 @@ a.home:link {
     .about-page {
         background-color: black;
         background: rgba(0, 0, 0, 0.8);
-        border-radius: 10px;
+        border-radius: 7px;
         padding: 3.5%;
     }
 
@@ -181,7 +181,7 @@ a.home:link {
     .contact-page, .contest-page {
         background-color: black;
         background: rgba(0, 0, 0, 0.8);
-        border-radius: 10px;
+        border-radius: 7px;
         padding: 3.5%;
     }
 
