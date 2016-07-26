@@ -39,7 +39,7 @@ body {
 
 .blog-post {
     background-color: black;
-    background: rgba(0, 0, 0, 0.55);
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 15px;
     padding: 3.5%;
     margin-bottom: 1.5%;
@@ -93,7 +93,7 @@ a.home:link {
     text-align: left;
 }
 
-.bio, .about-headers, .contest-header, .contest-details-body, .contact-title {
+.bio, .about-headers, .contest-header, .contest-details-body, .contact-title, .plat-news-header {
     font-family: 'Droid Sans', Bold;
     color: rgb(255, 245, 226);
     text-shadow: 1px 1px black;
@@ -121,9 +121,15 @@ a.home:link {
 /* drop shadow */
 .contact-info, .bio, .contest-page {
     background-color: black;
-    background: rgba(0, 0, 0, 0.55);
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 15px;
     padding: 3.5%;
+}
+
+/* center headings */
+
+.contact-title, .contest-details-title, .contest-header {
+    text-align: center;
 }
 
 .widget-container {
@@ -163,7 +169,7 @@ a.home:link {
 @media screen and (max-width: 939px) {
     .about-page {
         background-color: black;
-        background: rgba(0, 0, 0, 0.44);
+        background: rgba(0, 0, 0, 0.8);
         border-radius: 15px;
         padding: 3.5%;
     }
@@ -174,7 +180,7 @@ a.home:link {
 
     .contact-page, .contest-page {
         background-color: black;
-        background: rgba(0, 0, 0, 0.44);
+        background: rgba(0, 0, 0, 0.8);
         border-radius: 15px;
         padding: 3.5%;
     }
