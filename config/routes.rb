@@ -2,7 +2,6 @@ LeColectif::Application.routes.draw do
 
   get "contact", to: 'pages#contact', :as => :contact
   get "plat_in_the_news", to: 'pages#plat_in_the_news', :as => :plat_in_the_news
-  get "afropunk-contest", to: 'pages#contest', :as => :contest
 
   root 'home#index'
 

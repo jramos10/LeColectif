@@ -146,17 +146,6 @@ a.home:link {
     text-align: center;
 }
 
-.afropunk-flyer {
-    position: relative;
-    overflow: hidden;
-    margin: 1% auto 2%;
-    margin-bottom: .75%;
-    min-width: 355px;
-    width: 49%;
-    height: 49%;
-    text-align: center;
-}
-
 .video-container iframe {
     position: absolute;
     top: 0;
@@ -175,6 +164,7 @@ a.home:link {
 
 .contest-page {
     width: 48%;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 939px) {
